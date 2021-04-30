@@ -1,0 +1,208 @@
+$ui-base-color: #1f282f; // nearly black
+$ui-highlight-color: #964649; // red
+$ui-secondary-color: #f4f9fd; // light purple
+$ui-primary-color: #dddde1; // main text
+$ui-primary-color-alt: #ff878c; // darker, for external pages
+$ui-link-text-color: #964649;
+$ui-background-pale-color: #d5cfd0; // background pale
+$ui-pale-contrast-color: #613032; // pale contrast
+
+$about-page-text: lighten($ui-base-color, 50%);
+
+@import 'neon-base';
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0);
+  }
+  65% {
+    transform: translate(0, 4px);
+  }
+  to {
+    transform: translate(0, -0);
+  }
+}
+
+.about-body .mascot {
+  display: none;
+}
+
+.muted {
+  .status__content p, .status__content a {
+    color: lighten($ui-base-color, 35%);
+  }
+
+  .status__display-name strong {
+    color: lighten($ui-base-color, 35%);
+  }
+}
+
+.compose-form__buttons button.active:last-child {
+  color:$ui-secondary-color;
+  background-color: $ui-highlight-color;
+  border-radius:3px;
+}
+
+.screenshot-with-signup {
+  min-height:300px;
+}
+
+.container.hero .closed-registrations-message .clock {
+  font-size: 150%;
+  margin: 1em auto;
+}
+
+.actions .button.button-alternative {
+    background: $ui-highlight-color;
+    color: $ui-primary-color;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: lighten($ui-highlight-color, 4%);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+  .landing-page .container.links {
+      top: -15px;
+  }
+}
+
+.landing-page.alternative .header {
+    background-image:url('../images/evangelion/header-evangelion-colour.jpg');
+    background-repeat: repeat-x;
+    background-size:contain;
+    height:45vh;
+    width: 100%;
+    position:absolute;
+    z-index: 1;
+    text-align:center;
+
+    display: unset!important;
+}
+
+.landing-page.alternative .header img {
+    margin: auto;
+    max-height:45vh;
+}
+
+
+.landing-page.alternative .grid {
+    position: relative;
+    z-index:2;
+    margin-top:15vh;
+}
+
+.landing-page.alternative .landing-page__hero img {
+    visibility: hidden;
+    max-height:170px;
+}
+
+.landing-page.alternative .landing-page__forms {
+    height:auto;
+}
+
+.landing-page.alternative .column-1 {
+    display:flex;
+    align-items:flex-end;
+}
+
+.landing-page.alternative .column {
+    max-height:initial;
+}
+
+.landing-page.alternative .row__mascot {
+    .floats {
+        position:absolute;
+        img {
+            width:100%;
+            height:100%;
+        }
+        transition: all 0.1s linear;
+        animation-name: floating;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+    .float-1 {
+        width:50px;
+        height:50px;
+        bottom:60px;
+        left:110px;
+        animation-duration: 3s;
+    }
+
+    .float-2 {
+        width:130px;
+        height:130px;
+        left:85px;
+        bottom: -60px;
+        animation-duration: 3.5s;
+        animation-delay: 0.2s;
+    }
+
+    .float-3 {
+        width:100px;
+        height:100px;
+        right: 50;
+        top: -10px;
+        animation-duration: 4s;
+        animation-delay: 0.5s;
+    }
+}
+
+.activity-stream {
+  .status.light {
+    .status__header .status__meta .status__relative-time {
+      color: $ui-primary-color-alt;
+    }
+
+    .display-name span {
+      color: $ui-primary-color-alt;
+    }
+
+    .status__content {
+      a.status__content__spoiler-link {
+        background: $ui-primary-color-alt;
+
+        &:hover {
+          background: lighten($ui-primary-color-alt, 8%);
+        }
+      }
+    }
+  }
+
+  .detailed-status.light {
+    .detailed-status__display-name .display-name span {
+      color: $ui-primary-color-alt;
+    }
+
+    .status__content a.status__content__spoiler-link {
+      background: $ui-primary-color-alt;
+
+      &:hover {
+        background: lighten($ui-primary-color-alt, 8%);
+      }
+    }
+
+    .detailed-status__meta {
+      color: $ui-primary-color-alt;
+    }
+  }
+
+  .media-spoiler {
+    background: $ui-primary-color-alt;
+    &:hover {
+      background: darken($ui-primary-color-alt, 5%);
+    }
+  }
+
+  .pre-header {
+    color: $ui-primary-color-alt;
+    .status__display-name.muted strong {
+      color: $ui-primary-color-alt;
+    }
+  }
+}
