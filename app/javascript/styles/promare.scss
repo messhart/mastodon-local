@@ -941,3 +941,17 @@ a.table-action-link, button.table-action-link {
 .focusable:focus .status.status-direct {
     background: hsla(320.6, 100%, 86.9%, 0.30);
 }
+
+.focusable:focus {
+    background: #e5fcff30;
+}
+
+.focusable:focus .detailed-status, .focusable:focus .detailed-status__action-bar {
+    background: #e5fcff30;
+}
+
+.status.status-direct.status-reply.muted {
+    background: transparent;
+}
+
+
