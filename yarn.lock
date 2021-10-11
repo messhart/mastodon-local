@@ -2906,10 +2906,15 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001135, caniuse-lite@^1.0.30001157, caniuse-lite@^1.0.30001165:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109:
   version "1.0.30001220"
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001220.tgz"
   integrity sha512-pjC2T4DIDyGAKTL4dMvGUQaMUHRmhvPpAgNNTa14jaBWHu+bLQgvpFqElxh9L4829Fdx0PlKiMp3wnYldRtECA==
+
+caniuse-lite@^1.0.30001219:
+  version "1.0.30001265"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001265.tgz#0613c9e6c922e422792e6fcefdf9a3afeee4f8c3"
+  integrity sha512-YzBnspggWV5hep1m9Z6sZVLOt7vrju8xWooFAgN6BA5qvy98qPAPb7vNUzypFaoh2pb3vlfzbDO8tB57UPGbtw==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -5656,10 +5661,10 @@ ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-immutable@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
-  integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM=
+immutable@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.0.0.tgz#b86f78de6adef3608395efb269a91462797e2c23"
+  integrity sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw==
 
 import-cwd@^2.0.0:
   version "2.1.0"
