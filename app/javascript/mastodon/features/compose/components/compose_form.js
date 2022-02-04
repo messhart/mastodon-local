@@ -88,7 +88,7 @@ class ComposeForm extends ImmutablePureComponent {
     const fulltext = this.getFulltextForCharacterCounting();
     const isOnlyWhitespace = fulltext.length !== 0 && fulltext.trim().length === 0;
 
-    return !(isSubmitting || isUploading || isChangingUpload || length(fulltext) > 10650 || (isOnlyWhitespace && !anyMedia));
+    return !(isSubmitting || isUploading || isChangingUpload || length(fulltext) > 3090 || (isOnlyWhitespace && !anyMedia));
   }
 
   handleSubmit = () => {
@@ -260,7 +260,7 @@ class ComposeForm extends ImmutablePureComponent {
             <SpoilerButtonContainer />
             <FederationDropdownContainer />
           </div>
-          <div className='character-counter__wrapper'><CharacterCounter max={10650} text={this.getFulltextForCharacterCounting()} /></div>
+          <div className='character-counter__wrapper'><CharacterCounter max={3090} text={this.getFulltextForCharacterCounting()} /></div>
         </div>
 
         <div className='compose-form__publish'>
