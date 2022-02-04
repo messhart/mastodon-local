@@ -1,8 +1,8 @@
-$ui-base-color: rgba(112, 126, 147, 0.38); // darkest
+$ui-base-color: rgb(112, 126, 147); // darkest
 $ui-highlight-color: #6076a1; // vibrant
-$ui-secondary-color: #6f80b5; // lightest
+$ui-secondary-color: #b4bfe0; // lightest
 $ui-primary-color: #d1d6ff; // lighter
-$ui-primary-color-alt: #3d3c64fd; // darker, for external pages
+$ui-primary-color-alt: #8180a5fd; // darker, for external pages
 $ui-link-text-color: #537b85;
 
 $about-page-text: lighten($ui-base-color, 50%);
@@ -362,6 +362,17 @@ body, .landing-page, .public-layout {
 } // bunengdengru?
 
 .hero-widget__text a {
-    color: #9cb4ff;
+    color: #e3e1e1;
     text-decoration: none;
 } // liaojiegengduo
+
+
+// timeline
+
+.column>.scrollable {
+    background-color: transparent;
+}
+
+.columns-area--mobile .status {
+    background: rgb(112 116 147 / 38%);
+}
