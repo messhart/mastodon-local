@@ -1,9 +1,9 @@
-$ui-base-color: #033a55; // darkest
+$ui-base-color: rgba(112, 126, 147, 0.38); // darkest
 $ui-highlight-color: #6076a1; // vibrant
 $ui-secondary-color: #6f80b5; // lightest
 $ui-primary-color: #d1d6ff; // lighter
-$ui-primary-color-alt: #3d3c64; // darker, for external pages
-$ui-link-text-color: #40575d;
+$ui-primary-color-alt: #3d3c64fd; // darker, for external pages
+$ui-link-text-color: #537b85;
 
 $about-page-text: lighten($ui-base-color, 50%);
 
@@ -326,3 +326,42 @@ body, .landing-page, .public-layout {
     max-height: 200px;
     background: #88aea4;
 }
+
+
+// about page
+
+.box-widget {
+    background: rgb(112 116 147 / 38%);
+}
+
+.landing .hero-widget__footer {
+    background: rgb(112 116 147 / 38%);
+}
+
+.hero-widget__text {
+    background: rgb(112 116 147 / 38%);
+} 
+
+.directory__tag>a, .directory__tag>div {
+    background: rgb(112 116 147 / 38%);
+}
+
+.simple_form__overlay-area__overlay {
+    background: transparent;
+}
+
+.simple_form input[type=email], .simple_form input[type=number], .simple_form input[type=password], .simple_form input[type=text], .simple_form input[type=url], .simple_form textarea {
+    background: #43597fc4;
+    border: 1px solid #43597fc4;
+} // transparency of board
+
+.simple_form .hint a {
+    color: #e0906d;
+    font-weight: bold;
+    text-decoration: none;
+} // bunengdengru?
+
+.hero-widget__text a {
+    color: #9cb4ff;
+    text-decoration: none;
+} // liaojiegengduo
