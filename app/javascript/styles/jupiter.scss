@@ -1,9 +1,9 @@
-$ui-base-color: rgb(112, 126, 147); // darkest
+$ui-base-color: rgb(107, 135, 177); // darkest
 $ui-highlight-color: #6076a1; // vibrant
 $ui-secondary-color: #b4bfe0; // lightest
 $ui-primary-color: #d1d6ff; // lighter
 $ui-primary-color-alt: #8180a5fd; // darker, for external pages
-$ui-link-text-color: #537b85;
+$ui-link-text-color: #e0c3f1;
 
 $about-page-text: lighten($ui-base-color, 50%);
 
@@ -374,5 +374,15 @@ body, .landing-page, .public-layout {
 }
 
 .columns-area--mobile .status {
-    background: rgb(112 116 147 / 38%);
+    background: rgba(112, 116, 147, 0.7);
+}
+
+.status__prepend {
+    background: rgba(112, 116, 147, 0.7);
+}
+
+.load-more {
+    color: #ffc8b5;
+    font-weight: bold;
+    background-color: rgba(112, 116, 147, 0.7);
 }
