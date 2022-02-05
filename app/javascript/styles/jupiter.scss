@@ -440,6 +440,10 @@ body, .landing-page, .public-layout {
     background: rgb(153 146 205 / 36%);
 }
 
+.layout-single-column .navigation-panel .column-link:hover {
+    background: #888bb7c2;
+}
+
 // status editing page
 
 .drawer__inner__mastodon>img {
@@ -519,4 +523,19 @@ body, .landing-page, .public-layout {
 
 .account__header__fields dt {
     background: transparent;
+    color: #ffb4a3;
+}
+
+.column-back-button {
+    color: #ffffff;
+}
+
+// lists
+
+.empty-column-indicator, .error-column, .follow_requests-unlocked_explanation {
+    background: transparent;
+}
+
+.column-link {
+    background: #6b87b18a;
 }
