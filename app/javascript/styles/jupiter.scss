@@ -384,7 +384,39 @@ body, .landing-page, .public-layout {
 
 
 .status__display-name {
-    color: #aea3e9;
+    color: #cdc4ff;
 }
 
-// notificaiton
+.tabs-bar__wrapper {
+    background: #7892b8;
+} // unite tabs-bar color
+
+.tabs-bar__wrapper .tabs-bar {
+    background: #7892b8;
+}
+
+.tabs-bar__link.active {
+    border-bottom: 2px dotted #e99f9e;
+    color: #e99f9e;
+}
+
+.tabs-bar__link:active, .tabs-bar__link:focus, .tabs-bar__link:hover {
+    background: #7892b8;
+    border-bottom-color: #869dbf;
+}
+
+// left bar
+
+.navigation-bar strong {
+    color: #ffffff;
+}
+
+// status editing page
+
+.drawer__inner__mastodon>img {
+    opacity: 0;
+}
+
+.drawer__inner, .drawer__inner__mastodon {
+    background: transparent;
+}
