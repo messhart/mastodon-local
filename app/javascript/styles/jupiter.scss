@@ -400,6 +400,11 @@ body, .landing-page, .public-layout {
 
 .tabs-bar__link:active, .tabs-bar__link:focus, .tabs-bar__link:hover {
     background: #7892b8;
+    border-bottom-color: #ef8972;
+}
+
+.tabs-bar__link:active, .tabs-bar__link:focus, .tabs-bar__link:hover {
+    background: #7892b8;
     border-bottom-color: #869dbf;
 }
 
@@ -421,14 +426,18 @@ body, .landing-page, .public-layout {
     color: #ffffff;
 }
 
+.button {
+    background-color: #9d8bce;
+}
+
 // right bar
 
 .layout-single-column .navigation-panel .column-link.active {
-    background: #5a79a885;
+    background: rgb(153 146 205);
 }
 
 .layout-single-column .navigation-panel .column-link {
-    background: #7c95ba38;
+    background: rgb(153 146 205 / 36%);
 }
 
 // status editing page
@@ -473,4 +482,41 @@ body, .landing-page, .public-layout {
 
 .account__section-headline a.active, .account__section-headline button.active, .notification__filter-bar a.active, .notification__filter-bar button.active {
     color: #ffffff;
+}
+
+.account__section-headline button, .notification__filter-bar button, .search__input {
+    background: #9992cd;
+}
+
+// detailed status page
+
+.detailed-status {
+    background: #796bde26;
+}
+
+.status-card__image {
+    background: #7892b859;
+}
+
+.column-header>.column-header__back-button {
+    color: #ffffff;
+}
+
+.detailed-status__action-bar {
+    background: #796bde26;
+    border-top: 0px solid #869dbf;
+}
+
+// single account page
+
+.account__header__bar {
+    background: #ffffff00;
+}
+
+.account__section-headline {
+    background-color: #9992cd75;
+}
+
+.account__header__fields dt {
+    background: transparent;
 }
