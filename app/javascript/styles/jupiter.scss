@@ -373,15 +373,13 @@ body, .landing-page, .public-layout {
 // timeline
 
 .column>.scrollable {
-    background-color: rgba(112, 116, 147, 0.7);
+    background-color: rgba(112, 116, 147, 0.65);
 }
-
 
 .load-more {
     color: #ffc8b5;
     font-weight: bold;
 }
-
 
 .status__display-name {
     color: #cdc4ff;
@@ -396,13 +394,21 @@ body, .landing-page, .public-layout {
 }
 
 .tabs-bar__link.active {
-    border-bottom: 2px dotted #e99f9e;
+    border-bottom: 2px solid #e99f9e;
     color: #e99f9e;
 }
 
 .tabs-bar__link:active, .tabs-bar__link:focus, .tabs-bar__link:hover {
     background: #7892b8;
     border-bottom-color: #869dbf;
+}
+
+.conversation--unread {
+    background: #ffa4b33b;
+}
+
+.muted .status__content a, .muted .status__content p, .muted .status__display-name strong {
+    color: #ffffff;
 }
 
 // left bar
@@ -420,3 +426,5 @@ body, .landing-page, .public-layout {
 .drawer__inner, .drawer__inner__mastodon {
     background: transparent;
 }
+
+// status page
