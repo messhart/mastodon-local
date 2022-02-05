@@ -3,7 +3,7 @@ $ui-highlight-color: #6076a1; // vibrant
 $ui-secondary-color: #b4bfe0; // lightest
 $ui-primary-color: #d1d6ff; // lighter
 $ui-primary-color-alt: #8180a5fd; // darker, for external pages
-$ui-link-text-color: #e0c3f1;
+$ui-link-text-color: #ef8972;
 
 $about-page-text: lighten($ui-base-color, 50%);
 
@@ -366,23 +366,25 @@ body, .landing-page, .public-layout {
     text-decoration: none;
 } // liaojiegengduo
 
+.brand__tagline {
+    color: transparent;
+} // delete brand tagline
 
 // timeline
 
 .column>.scrollable {
-    background-color: transparent;
+    background-color: rgba(112, 116, 147, 0.7);
 }
 
-.columns-area--mobile .status {
-    background: rgba(112, 116, 147, 0.7);
-}
-
-.status__prepend {
-    background: rgba(112, 116, 147, 0.7);
-}
 
 .load-more {
     color: #ffc8b5;
     font-weight: bold;
-    background-color: rgba(112, 116, 147, 0.7);
 }
+
+
+.status__display-name {
+    color: #aea3e9;
+}
+
+// notificaiton
