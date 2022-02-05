@@ -1,5 +1,5 @@
 $ui-base-color: rgb(107, 135, 177); // darkest
-$ui-highlight-color: #6076a1; // vibrant
+$ui-highlight-color: #8ba1ce; // vibrant
 $ui-secondary-color: #b4bfe0; // lightest
 $ui-primary-color: #d1d6ff; // lighter
 $ui-primary-color-alt: #8180a5fd; // darker, for external pages
@@ -411,10 +411,24 @@ body, .landing-page, .public-layout {
     color: #ffffff;
 }
 
+.tabs-bar__link {
+    border-bottom: 2px solid #7892b8;
+} // cancel tabs-bar underline
+
 // left bar
 
 .navigation-bar strong {
     color: #ffffff;
+}
+
+// right bar
+
+.layout-single-column .navigation-panel .column-link.active {
+    background: #5a79a885;
+}
+
+.layout-single-column .navigation-panel .column-link {
+    background: #7c95ba38;
 }
 
 // status editing page
@@ -427,4 +441,36 @@ body, .landing-page, .public-layout {
     background: transparent;
 }
 
-// status page
+// search
+
+.drawer__inner.darker {
+    background: transparent;
+}
+
+.trends__header {
+    color: #ffffff;
+    background: #ef89728a;
+    border-bottom: 1px solid #ef89728a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7892b8a6;
+}
+
+.search__input {
+    background: #7892b8;
+}
+
+// notifications
+
+.account__section-headline button, .notification__filter-bar button {
+    background: #7892b8;
+}
+
+.account__section-headline a.active:after, .account__section-headline button.active:after, .notification__filter-bar a.active:after, .notification__filter-bar button.active:after {
+    border-color: transparent transparent #ef8972;
+}
+
+.account__section-headline a.active, .account__section-headline button.active, .notification__filter-bar a.active, .notification__filter-bar button.active {
+    color: #ffffff;
+}
