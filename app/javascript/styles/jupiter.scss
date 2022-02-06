@@ -456,6 +456,10 @@ body, .landing-page, .public-layout {
   background: #7892b861;
 }
 
+.focusable:focus .detailed-status__action-bar {
+  background: #7892b861;
+}
+
 a.status-card.compact:hover {
   background-color: #7892b84d;
 }
@@ -716,4 +720,8 @@ a.status-card.compact:hover {
 .icon-with-badge__badge {
     background: #e99f9e;
     border: 2px solid #ef897200;
+}
+
+.column-link--transparent .icon-with-badge__badge {
+  border-color: #ffffff00;
 }
