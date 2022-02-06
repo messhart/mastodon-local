@@ -444,6 +444,14 @@ body, .landing-page, .public-layout {
     background: #728cb500;
 }
 
+.focusable:focus {
+  background: #7892b861;
+}
+
+a.status-card.compact:hover {
+  background-color: #7892b84d;
+}
+
 // left bar
 
 .navigation-bar strong {
@@ -574,10 +582,6 @@ body, .landing-page, .public-layout {
 
 // detailed status page
 
-.focusable:focus {
-  background: #7892b861;
-}
-
 .detailed-status {
     background: #7892b861;
 }
@@ -654,6 +658,12 @@ body, .landing-page, .public-layout {
 
 .floating-action-button {
     background-image: linear-gradient(45deg, #9478b8, #8098c9);
+}
+
+.floating-action-button:active, .floating-action-button:focus, .floating-action-button:hover {
+  background-image: linear-gradient(
+45deg
+, #e99f9e, #b29fee);
 }
 
 // getting started
