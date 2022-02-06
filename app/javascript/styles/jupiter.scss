@@ -424,6 +424,11 @@ body, .landing-page, .public-layout {
 
 .navigation-bar strong {
     color: #ffffff;
+    font-weight: 800;
+}
+
+.navigation-bar__profile {
+    color: #ffffff;
 }
 
 .button {
@@ -454,6 +459,26 @@ body, .landing-page, .public-layout {
     background: transparent;
 }
 
+.reply-indicator {
+    background: #ebebeb;
+}
+
+.compose-form .compose-form__buttons-wrapper .icon-button, .compose-form .compose-form__buttons-wrapper .text-icon-button {
+    color: #7892b8;
+}
+
+.character-counter {
+    color: #7892b8;
+}
+
+.fa-close:before, .fa-remove:before, .fa-times:before {
+    color: #ef8972;
+}
+
+.compose-form .spoiler-input__input {
+    color: #ef8972;
+}
+
 // search
 
 .drawer__inner.darker {
@@ -472,6 +497,16 @@ body, .landing-page, .public-layout {
 
 .search__input {
     background: #7892b8;
+}
+
+.search-results__header {
+    color: #e4eeff;
+    background: #7892b8a1;
+}
+
+.search-results__section h5 {
+    background: #ffffff26;
+    color: #ffffff;
 }
 
 // notifications
