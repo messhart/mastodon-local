@@ -448,6 +448,14 @@ body, .landing-page, .public-layout {
   background: #7892b861;
 }
 
+.focusable:focus .status.status-direct {
+  background: #7892b861;
+}
+
+.focusable:focus .detailed-status {
+  background: #7892b861;
+}
+
 a.status-card.compact:hover {
   background-color: #7892b84d;
 }
@@ -597,6 +605,15 @@ a.status-card.compact:hover {
 .detailed-status__action-bar {
     background: #7892b861;
     border-top: 0px solid #869dbf;
+}
+
+.account__header__account-note textarea:focus {
+  color: #fff;
+  background: #7892b86b;
+}
+
+.account__header__account-note {
+  border-bottom: 1px solid #ffffff00;
 }
 
 // single account page
