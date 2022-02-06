@@ -403,10 +403,6 @@ body, .landing-page, .public-layout {
     border-bottom-color: #ef8972;
 }
 
-.tabs-bar__link:active, .tabs-bar__link:focus, .tabs-bar__link:hover {
-    background: #7892b8;
-    border-bottom-color: #869dbf;
-}
 
 .conversation--unread {
     background: #ffa4b33b;
@@ -530,7 +526,7 @@ body, .landing-page, .public-layout {
 // detailed status page
 
 .detailed-status {
-    background: #796bde26;
+    background: rgb(74 89 112 / 27%);
 }
 
 .status-card__image {
@@ -542,7 +538,7 @@ body, .landing-page, .public-layout {
 }
 
 .detailed-status__action-bar {
-    background: #796bde26;
+    background: rgb(74 89 112 / 27%);
     border-top: 0px solid #869dbf;
 }
 
@@ -575,7 +571,62 @@ body, .landing-page, .public-layout {
     background: #6b87b18a;
 }
 
+.column-header__button.active {
+    background: #7892b8;
+}
+
+.column-header__collapsible {
+    color: #ffffff;
+}
+
+.column-link__badge, .column-subheading {
+    background: #6b87b100;
+}
+
+.column-inline-form {
+    background: #9992cd;
+}
+
+.fa-plus:before {
+    color: #fff;
+}
+
+.setting-text {
+    color: #ffffff;
+    font-weight: 800;
+    background: #9992cd;
+}
+
 // floating action button
+
 .floating-action-button {
     background-image: linear-gradient(45deg, #9478b8, #8098c9);
+}
+
+// getting started
+
+.flex-spacer, .getting-started, .getting-started__wrapper {
+    background: rgb(112 116 147 / 38%);
+}
+
+.getting-started .column-link {
+    background: transparent;
+}
+
+.column-link__badge, .column-subheading {
+    background: #ffffff00;
+}
+
+.getting-started .column-link:hover {
+    background: #7892b854;
+}
+
+.fa-chevron-down:before {
+    color: #9992cd;
+}
+
+// button
+
+.button:active, .button:focus, .button:hover {
+    background-color: #8da7da;
 }
