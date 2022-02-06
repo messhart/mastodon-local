@@ -370,6 +370,30 @@ body, .landing-page, .public-layout {
     color: transparent;
 } // delete brand tagline
 
+.simple_form input[type=email], .simple_form input[type=number], .simple_form input[type=password], .simple_form input[type=text], .simple_form input[type=url], .simple_form textarea {
+    background: rgb(67 89 127 / 45%);
+    border: 1px solid rgb(67 89 127 / 0%);
+}
+
+// about more page
+
+.landing-page__call-to-action {
+    background: #6b87b100;
+}
+
+.table-of-contents {
+    background: #00000061;
+}
+
+.table-of-contents li a {
+    border-bottom: 1px solid #ffffff12;
+}
+
+.rules-list {
+    background: #ef89725c;
+    border: 1px solid #ffffff00;
+}
+
 // timeline
 
 .column>.scrollable {
