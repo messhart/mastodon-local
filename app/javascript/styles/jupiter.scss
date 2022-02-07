@@ -375,6 +375,10 @@ body, .landing-page, .public-layout {
     border: 1px solid rgb(67 89 127 / 0%);
 }
 
+.directory__tag>a:active, .directory__tag>a:focus, .directory__tag>a:hover {
+  background: #869dbf40;
+}
+
 // about more page
 
 .landing-page__call-to-action {
