@@ -573,6 +573,14 @@ a.status-card.compact:hover {
   background: #7c73c3;
 }
 
+::-webkit-scrollbar-thumb :hover {
+  background: rgba(165, 156, 228, 0.57);
+}
+
+::-webkit-scrollbar-track :hover{
+  background: rgba(0,0,0,.1);
+}
+
 // notifications
 
 .account__section-headline button, .notification__filter-bar button {
