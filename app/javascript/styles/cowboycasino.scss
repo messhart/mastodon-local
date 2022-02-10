@@ -571,6 +571,10 @@ body, .landing-page, .public-layout {
   text-decoration: underline;
 } // 'learn more' color
 
+.compose-panel .compose-form {
+  max-height: 500px;
+}
+
 /* avatar */
 .column-back-button {
     background: black;

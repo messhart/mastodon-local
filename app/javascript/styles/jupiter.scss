@@ -539,6 +539,10 @@ a.status-card.compact:hover {
   color: #e98c75;
 }
 
+.compose-panel .compose-form {
+  max-height: 500px;
+}
+
 // search
 
 .drawer__inner.darker {
