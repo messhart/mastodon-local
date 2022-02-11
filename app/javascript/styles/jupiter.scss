@@ -655,6 +655,10 @@ a.status-card.compact:hover {
     color: #ffffff;
 }
 
+.columns-area--mobile .account__header__bio .account__header__joined {
+  padding-top: 20px;
+}
+
 // lists
 
 .empty-column-indicator, .error-column, .follow_requests-unlocked_explanation {
@@ -783,4 +787,10 @@ a.status-card.compact:hover {
     border-radius: 4px 4px 0 0;
     background: #869dbf;
   }
+}
+
+// 404
+
+.regeneration-indicator {
+  background: #7892b84d;
 }
