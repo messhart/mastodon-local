@@ -761,7 +761,7 @@ a.status-card.compact:hover {
     background: #869dbf5e;
     border-bottom: 1px solid #95b3df;
   }
-  
+
   .public-layout .account__section-headline {
     border-radius: 4px 4px 0 0;
     background: rgb(129 128 165 / 79%);
@@ -778,7 +778,9 @@ a.status-card.compact:hover {
     color: #ef8972;
 }
 
-.public-layout .account__section-headline {
-  border-radius: 4px 4px 0 0;
-  background: #869dbf;
+@media screen and (min-width: 415px) {
+  .public-layout .account__section-headline {
+    border-radius: 4px 4px 0 0;
+    background: #869dbf;
+  }
 }
