@@ -744,10 +744,6 @@ a.status-card.compact:hover {
 
 // status page outside site
 
-.account__section-headline {
-  background-color: rgb(134 157 191);
-}
-
 .activity-stream .entry {
   background-color: rgb(147 171 211 / 50%);
 }
@@ -762,4 +758,13 @@ a.status-card.compact:hover {
 
 .public-layout .public-account-header__bar {
   background: #869dbf6e;
+}
+
+.card__bar {
+  background: #5c5c5c82;
+
+  .nothing-here {
+    background: #ffffff00;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0%);
+    color: #ef8972;
 }
