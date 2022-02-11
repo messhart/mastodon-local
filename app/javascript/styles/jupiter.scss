@@ -752,6 +752,14 @@ a.status-card.compact:hover {
   background-color: rgb(147 171 211 / 50%);
 }
 
-.button.logo-button {
-  background: #8ba1ce00;
+.public-layout .public-account-bio {
+  background: rgb(159 159 159 / 17%);
+}
+
+.public-layout .public-account-bio .account__header__fields a {
+  color: #ffffff;
+}
+
+.public-layout .public-account-header__bar {
+  background: #869dbf6e;
 }
