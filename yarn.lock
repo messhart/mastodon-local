@@ -2565,10 +2565,10 @@ bluebird@^3.5.5:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
-blurhash@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/blurhash/-/blurhash-1.1.5.tgz#3034104cd5dce5a3e5caa871ae2f0f1f2d0ab566"
-  integrity sha512-a+LO3A2DfxTaTztsmkbLYmUzUeApi0LZuKalwbNmqAHR6HhJGMt1qSV/R3wc+w4DL28holjqO3Bg74aUGavGjg==
+blurhash@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/blurhash/-/blurhash-2.0.0.tgz#c2e6392043d5355241cf9ddaec9359023ea57a40"
+  integrity sha512-fdEZnyJZ5E5s9neCfZUMSMkKfMtdKz1fG53t/iYvMjUFUsDnyZ1YnRRayKBK/B8cilNwe5gaIrPF8QlLrukEZQ==
 
 bmp-js@^0.1.0:
   version "0.1.0"
@@ -2940,23 +2940,6 @@ caniuse-api@^3.0.0:
     caniuse-lite "^1.0.0"
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
-
-  caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001271, caniuse-lite@^1.0.30001286:
-  version "1.0.30001310"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001310.tgz#da02cd07432c9eece6992689d1b84ca18139eea8"
-  integrity sha512-cb9xTV8k9HTIUA3GnPUJCk0meUnrHL5gy5QePfDjxHyNBcnzPzrHFv5GqfP7ue5b1ZyzZL0RJboD6hQlPXjhjg==
-
-capture-exit@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/capture-exit/-/capture-exit-2.0.0.tgz#fb953bfaebeb781f62898239dabb426d08a509a4"
-  integrity sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==
-  dependencies:
-    rsvp "^4.8.4"
-
-caseless@~0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
-  integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001271, caniuse-lite@^1.0.30001286:
   version "1.0.30001310"
